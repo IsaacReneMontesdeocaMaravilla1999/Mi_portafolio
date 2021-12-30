@@ -26,4 +26,6 @@ function validar(){
         form.mensaje.focus();
         return false;
     }
+     alert("Datos enviados con exito");
+     form.submit();
 }
