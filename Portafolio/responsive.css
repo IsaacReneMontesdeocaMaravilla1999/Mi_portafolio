@@ -1,0 +1,431 @@
+@media screen and (max-width: 1920px){
+    #perfil{
+        top: 35%;  
+    }
+    .btn-cv{
+        bottom: 435px;
+    }
+    #letters{
+        font-size: 1.7em;
+    }
+    #menu{
+        left: 45%;
+        top: 1%;
+    }
+    #about_me h2{
+        height: 50%;
+    }
+    #articulo{
+        height: 60%;
+    }
+    #main_name{
+        height: 23%;
+    }
+}
+
+/*Mi laptop*/
+@media screen and (max-width: 1370px){
+    #letters{
+        font-size: 1.1em;
+    }
+    .btn-cv{
+        bottom: 90px;
+    }
+    #perfil{
+        top: 50%;  
+    }
+
+    #about_me h2{
+        height: 35%;
+    }
+    #articulo{
+        background: red;
+        height: 70%;
+        margin-left: 5%;
+        margin-top: -3%;
+        width: 90%;
+        border: black solid 4px;
+        border-radius: 30px;
+       /* margin: 60px;*/
+    }
+    
+}
+
+
+@media screen and (max-width: 1280px){
+    #perfil{
+        top: 38%;  
+    }
+    .btn-cv{
+        bottom: 290px;
+    }
+    #letters{
+        font-size: 1.1em;
+    }
+    #menu{
+        left: 40%;
+        top: 1%;
+     }
+     #about_me h2{
+        height: 35%;
+     }
+
+     #articulo{
+        height: 65%;
+     }
+}
+
+@media screen and (max-width: 1024px){
+    #perfil{
+        top: 37%;  
+    }
+    .btn-cv{
+        bottom: 300px;
+    }
+    #letters{
+        font-size: 0.8em;
+    }
+    #menu{
+        left: 38%;
+        top: 2%;
+     }
+     #menu ul li a{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1000px){
+    #perfil{
+        top: 45%;  
+    }
+    .btn-cv{
+        bottom: 150px;
+    }
+    #menu{
+        left: 41%;
+        top: 2%;
+     }
+     #menu ul li a{
+        font-size: 14px;
+    }
+    #letters{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 930px){
+    #perfil{
+        top: 58%;  
+    }
+    .btn-cv{
+        bottom: 10px;
+    }
+    #menu{
+        left: 50%;
+        top: 2%;
+     }
+     #menu ul li a{
+        font-size: 8px;
+    }
+    #letters{
+        padding: 12px;
+        font-size: 0.6em;
+    }
+
+    .social_networks{
+        position: absolute;
+        left: 50%;
+        top: 1830px;
+    }
+
+    .social_networks a{
+        height: 50px;
+        width: 50px;
+        margin: 5.6px;
+        transition: transform 0.4s;
+        font-size: 30px;
+    }
+
+    #articulo{
+        height: 54%;
+        margin-left: 5%;
+        margin-top: -3%;
+        width: 90%;
+        font-size: 70%;
+
+    }
+    .btn-cv{
+        height: 8%;
+        width: 15%;
+        bottom: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    #perfil{
+        top: 55%;
+        left: 40%;  
+    }
+    #menu{
+        display: none;
+    }
+
+    .btn-cv{
+        font-size: 19.5px;
+        height: 5%;
+        width: 21%;
+        bottom: 20px;
+    }
+    #articulo{
+        font-size: 18px;
+        height: 68%;
+    }
+}
+
+@media screen and (max-width: 703px){
+    #letters{
+        font-size: 1.0em;
+    }
+    #main_name{
+       height: 25%;
+       width: 65%;
+       left: 20%;       
+    }
+
+    #articulo{
+        height: 60%;
+        margin-left: 5%;
+        margin-top: -1%;
+        width: 90%;
+    }
+    #articulo p{
+        font-size: 0.9em;
+    }
+
+.social_networks a{
+    display: flex;
+    height: 75px;
+    width: 75px;
+    font-size: 45px;
+    list-style: none;
+}
+
+.social_networks{
+    position: absolute;
+    left: 60%;
+    top: 1530px;
+}
+
+
+#about_me{
+    font-size: 1.4em;
+}
+#perfil{
+    top: 55%;
+    left: 30%;  
+    }
+}
+@media screen and (max-width: 605px){
+    #letters{
+        font-size: 0.8em;
+    }
+    #main_name{
+       height: 25%;
+       width: 65%;
+       left: 18%;       
+    }
+
+    .social_networks a{
+        height: 75px;
+        width: 75px;
+        font-size: 45px;
+        list-style: none;
+    }
+    
+    .social_networks{
+        position: absolute;
+        left: 80%;
+        top: 1530px;
+    }
+    .flex-container img{
+        border: 1px solid black;
+        background: white;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        width: 90px;
+        height: 90px;
+        line-height: 120px;
+        margin: 5px;
+    }
+    .btn-cv{
+        height: 8%;
+        width: 17%;
+        bottom: 35px;
+        left: -30px;
+    }
+}
+
+@media screen and (max-width: 480px){
+ #letters{
+        font-size: 0.7em;
+    }
+    .social_networks{
+        left: 87%;
+    }
+    .social_networks a{
+        height: 45px;
+        width: 45px;
+        font-size: 25px;
+    }
+    #articulo p{
+        font-size: 0.7em;
+    } 
+    .flex-container img{
+        width: 60px;
+        height: 60px;
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .btn-cv{
+        font-size: 0.6em;
+        height: 5%;
+        width: 16%;
+        bottom: 30px;
+    }
+
+    #letters{
+        font-size: 0.6em;
+    }
+    
+    footer{
+        font-size: 15px;
+    }
+
+    .social_networks a{
+        display: inline-flex;
+    }
+    
+    .social_networks{
+        position: absolute;
+        left: 12%;
+        top: 1945px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    #letters{
+        font-size: 0.5em;
+    }
+    .btn-cv{
+        bottom: 45px;
+        font-size: 15px;
+        width: 18%;
+        height: 1%;
+        left: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;      
+}
+
+form{
+    font-size: 1.0em;
+    left: 20px;
+}
+.social_networks{
+    position: absolute;
+    left: 4%;
+}
+
+footer{
+  font-size: 70%;
+    align-items: center;
+}
+.flex-container div{
+    width: 95px;
+    height: 90px;
+    line-height: 50px;
+    margin: 1px;
+    text-align: center;
+    font-size: 13px;
+}
+}
+
+@media screen and (max-width: 360px){
+    #letters{
+        font-size: 0.5em;
+    }
+    #main_name{
+       height: 15%;
+       width: 60%;
+       left: 18%;
+    }
+    #perfil{
+        top: 55%;
+        left: 25%;  
+    }
+    .btn-cv{
+        width: 30%;
+        left: 90px;
+        bottom: 280px;
+    }
+    .flex-container div{
+        font-size: 8px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        margin: 5px;
+        text-align: center;
+    }
+    footer{
+        font-size: 11px;
+    }
+    
+    .social_networks{
+        position: absolute;
+        left: 8%;
+        top: 1935px;
+    }
+
+    form{
+        font-size: 1.0em;
+        left: 15px;
+    }
+}
+@media screen and (max-width: 320px){
+    #letters{
+        font-size: 0.4em;
+    }
+    #logo{
+        font-size: 165%;
+    }
+    .btn-cv{
+        bottom: 280px;
+        font-size: 15px;
+        left: 80px;
+          
+}
+#perfil{
+    top: 55%;
+    left: 20%;
+}
+
+#articulo{
+    height: 60%;    
+    font-size: 15px;
+}
+
+.social_networks{
+    position: absolute;
+    left: 2%;
+    top: 1940px;
+}
+form{
+    left: 0;
+}
+
+}
+
